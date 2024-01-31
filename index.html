@@ -42,7 +42,7 @@
                 this.color = color;
                 // this.size = 4;
                 // this.size = this.effect.gap - 1;
-                this.size = this.effect.gap;
+                this.size = this.effect.gap - 0.1;
                 // this.vx = Math.random() * 2 - 1;
                 // this.vy = Math.random() * 2 - 1;
                 this.vx = 0;
@@ -95,7 +95,7 @@
                 this.centerY = this.height * 0.5;
                 this.x = this.centerX - this.image.width * 0.5;
                 this.y = this.centerY - this.image.height * 0.5;
-                this.gap = 4;
+                this.gap = 5;
                 this.mouse = {
                     radius: 15000,
                     x: undefined,
